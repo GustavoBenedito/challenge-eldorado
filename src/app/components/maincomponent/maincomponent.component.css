@@ -1,5 +1,5 @@
 .imagemmain{
-    width: 100vw;
+    width: 50vw;
     height: 80vh;
 }
 .maincontainer{
@@ -60,7 +60,7 @@
     font-weight: 500;
     line-height: -5;
 }
-.getafreetrialcontainer .buttonSingup{
+.buttonSingup{
     min-width: 180px;
     background-color: #F84E3F;
     color: #FFFF;
@@ -123,4 +123,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.divmain{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F1EE;
+}
+.weareconneqt{
+    width: 40%;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+.weareconneqt p{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.weareconneqt h1{
+    font-size: 4em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.weareconneqt h1 span{
+    color: #F84E3F;
 }

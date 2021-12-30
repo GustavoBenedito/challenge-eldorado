@@ -1,13 +1,18 @@
 <header class="header" role="banner" style="margin:0;padding:0;">
     <nav>
-        <img src="../../assets/logoconneqt.jpg" alt="">
+        <a [routerLink]="['/']">
+            <img src="../../assets/logoconneqt.jpg" alt="">
+        </a>
         <div class="buttons-login">
-        <button class="buttonSingup">
-            Sign Up For A Free Trial
-        </button>
-        <button class="buttonLogin">
-            Login
-        </button>
+            <a [routerLink]="['/signup']">
+                <button class="buttonSingup">
+                    Sign Up For A Free Trial
+                </button>
+            </a>
+
+            <button class="buttonLogin">
+                Login
+            </button>
         </div>
     </nav>
 

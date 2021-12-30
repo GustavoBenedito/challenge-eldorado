@@ -1,0 +1,21 @@
+footer{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FD4D46;
+    height: 45vh;
+    color: #FFF;
+}
+footer h3{
+    font-weight: 600;
+}
+.footertext1{
+    width: 25%;
+    margin-right: -5%;
+}
+.footertext1 p{
+    padding-top: 2.5%;
+    font-size: 1.3em;
+    width: 90%;
+    text-align: left;
+}
