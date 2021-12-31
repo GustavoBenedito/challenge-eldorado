@@ -19,3 +19,8 @@ footer h3{
     width: 90%;
     text-align: left;
 }
+footer p:hover, footer h3:hover{
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+    transition: 0.3s;
+}

@@ -112,6 +112,11 @@
     border: 1px solid rgb(83, 83, 83);
     margin-bottom: 1.5px;
 }
+.resellercontainer:hover{
+    transform: translateX(5px);
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
 .companywebsitetef{
     width: 48%;
     display: flex;

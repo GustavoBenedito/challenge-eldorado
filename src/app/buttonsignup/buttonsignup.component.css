@@ -1,0 +1,16 @@
+
+.buttonSingup{
+    min-width: 180px;
+    background-color: #F84E3F;
+    color: #FFFF;
+    border: none;
+    min-height: 30px;
+    border-radius: 5em;
+    font-size: 1em;
+    font-weight: 500;
+}
+.buttonSingup:hover{
+    cursor:pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}

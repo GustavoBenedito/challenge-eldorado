@@ -6,11 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./headercomponent.component.css']
 })
 export class HeadercomponentComponent implements OnInit {
-
+  buttonLogin = 'Login';
   constructor() { }
-
   ngOnInit(): void {
-    
   }
 
 }
