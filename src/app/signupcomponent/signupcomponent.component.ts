@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './signupcomponent.component.html',
   styleUrls: ['./signupcomponent.component.css']
 })
-export class SignupcomponentComponent {
+export class SignupcomponentComponent implements OnInit {
 freetrialsignup = 'Free-Trial Sign Up';
 getstarted = 'Get started and experience Conneqt today.';
 companyname = 'Company Name';
@@ -17,5 +17,8 @@ telephone = 'Telephone';
 password = 'Password';
 buttonsignup = 'Sign Up And Try For Free'
 
+  constructor() { }
 
+  ngOnInit(): void {
+  }
 }
