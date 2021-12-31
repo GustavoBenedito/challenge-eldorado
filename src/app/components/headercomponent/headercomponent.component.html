@@ -5,13 +5,11 @@
         </a>
         <div class="buttons-login">
             <a [routerLink]="['/signup']">
-                <button class="buttonSingup">
-                    Sign Up For A Free Trial
-                </button>
+                <app-buttonsignup></app-buttonsignup>
             </a>
 
             <button class="buttonLogin">
-                Login
+                {{buttonLogin}}
             </button>
         </div>
     </nav>

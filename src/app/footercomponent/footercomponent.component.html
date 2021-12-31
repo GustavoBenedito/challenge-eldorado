@@ -3,43 +3,27 @@
         <img src="" alt="">
         <img class="conneqtred" src="../../assets/conneqtred.jpg" alt="">
         <p>
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+            {{textobasico}}
         </p>
     </div>
     <div class="footertext2"> 
         <h3>
-            Important Links
+            {{importantlinks}}
         </h3>
-        <p>About Us</p>
-        <p>Support</p>
-        <p>Contact Us</p>
-        <p>Our Products</p>
-        <p>Payment Methods</p>
+        <p *ngFor='let row of importantlinksarray'>{{row}}</p>
     </div>
     <div class="footertext3">
         <h3>
-            Useful Links
+            {{usefullinks}}
         </h3>
-        <p>
-            Cases
-        </p>
-        <p>
-            White Papers
-        </p>
-        <p>
-            FAQ
-        </p>
-        <p>
-            Blog
+        <p *ngFor="let row of usefullinksarray">
+            {{row}}
         </p>
     </div>
     <div class="footertext4">
-        <h3>Get in Touch</h3>
-        <p>
-            Email: contact@conneqt.com
-        </p>
-        <p>
-            Phone: 469-844-8261
+        <h3>{{getintouch}}</h3>
+        <p *ngFor="let row of getintoucharray">
+            {{row}}
         </p>
     </div>
 </footer>

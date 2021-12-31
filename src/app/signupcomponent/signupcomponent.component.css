@@ -1,0 +1,63 @@
+main{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background-color: #F2F1EE;
+    min-height: 135vh;
+    vertical-align: middle;
+}
+main h2{
+    font-size: 4em;
+    font-weight: 100;
+    padding-top: 5%;
+}
+main h3{
+    font-size: 2.4em;
+    font-weight: 100;
+    margin-top: -25px;
+}
+.inputsform{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+    display: block;
+}
+.inputsform input{
+    min-width:350px;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 2px;
+    border: 2px solid rgb(180, 180, 180);
+    background-color: transparent;
+    margin-top: 15px;
+}
+.inputsform p{
+    text-align: left;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+.inputsform button{
+    margin-top: 35px;
+    min-width: 180px;
+    background-color: #F84E3F;
+    color: #FFFF;
+    border: none;
+    min-height: 30px;
+    border-radius: 5em;
+    font-size: 1em;
+    font-weight: 500;
+}
+.inputsform button:hover{
+    cursor:pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+input.ng-invalid{
+    border-left:5px solid red;
+}
+input.ng-valid{
+    border-left:5px solid red;
+}

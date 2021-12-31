@@ -21,24 +21,17 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-.buttons-login button{
-    min-height: 30px;
-    border-radius: 5em;
-    font-size: 1em;
-    font-weight: 500;
-}
+
 .buttons-login button:hover{
     cursor:pointer;
     opacity: 0.8;
     transition: 0.3s;
 }
-.buttonSingup{
-    min-width: 180px;
-    background-color: #F84E3F;
-    color: #FFFF;
-    border: none;
-}
 .buttonLogin{
+    min-height: 30px;
+    border-radius: 5em;
+    font-size: 1em;
+    font-weight: 500;
     min-width: 60px;
     background-color: #FFFF;
     color: #F84E3F;
