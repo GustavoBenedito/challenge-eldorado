@@ -5,6 +5,7 @@ main{
     background-color: #F2F1EE;
     min-height: 135vh;
     vertical-align: middle;
+    padding-top: 5px;
 }
 main h2{
     font-size: 4em;
@@ -60,4 +61,7 @@ input.ng-invalid{
 }
 input.ng-valid{
     border-left:5px solid red;
+}
+input[type=number] {
+    -moz-appearance:textfield;
 }

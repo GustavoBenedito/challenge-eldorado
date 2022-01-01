@@ -17,7 +17,6 @@ importantlinksarray = [
 ]
 usefullinks = 'Useful Links';
 usefullinksarray = [
-  'Useful Links',
   'Cases',
   'White Papers',
   'FAQ',

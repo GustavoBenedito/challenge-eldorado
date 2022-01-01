@@ -30,7 +30,7 @@ brazil = 'Brazil';
 brazilresellers = [
   'Ultratech Revendedora',
   'BlueFin',
-  'Gold Comm Sistema',
+  'Gold Comm Sistemas',
   'Centraltek'
 ]
 constructor() { }
