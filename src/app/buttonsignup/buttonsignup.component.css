@@ -1,6 +1,6 @@
 
 .buttonSingup{
-    min-width: 180px;
+    width: 180px;
     background-color: #F84E3F;
     color: #FFFF;
     border: none;
@@ -14,3 +14,16 @@
     opacity: 0.8;
     transition: 0.3s;
 }
+@media screen and (max-width:1000px){
+    .buttonSingup{
+        width: 350px;
+        background-color: #F84E3F;
+        color: #FFFF;
+        border: none;
+        min-height: 60px;
+        border-radius: 5em;
+        font-size: 1.9em;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+} 

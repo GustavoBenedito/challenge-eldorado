@@ -33,6 +33,8 @@ brazilresellers = [
   'Gold Comm Sistemas',
   'Centraltek'
 ]
+buttonLogin = 'Login';
+
 constructor() { }
 
   ngOnInit(): void {

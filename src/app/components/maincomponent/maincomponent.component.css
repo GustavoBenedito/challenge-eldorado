@@ -131,6 +131,67 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.weareconneqt h1 span, .companywebsite{
+.weareconneqt h1 span, .companywebsite, .weareconneqthidden h1 span{
     color: #F84E3F;
 }
+.weareconneqthidden{
+    padding-top: 50px;
+    display: none;
+    visibility: hidden;
+    margin: 0 auto;
+    height: 20vh;
+    text-align: center;
+    align-items: center;
+    background-color: #F2F1EE;
+
+}
+.weareconneqthidden p{
+    font-size: 2em;
+    font-weight: 500;
+}
+.weareconneqthidden h1{
+    font-size: 5.2em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buttonsdivhidden{
+    margin: 0 auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0;
+    height: 50%;
+}
+.buttonLogin{
+    font-size: 1.5em;
+    width: 125px;
+    min-height: 50px;
+    margin: 0 auto;
+    border-radius: 5em;
+    font-weight: 500;
+    min-width: 60px;
+    background-color: #FFFF;
+    color: #F84E3F;
+    border: 0.5px solid #DDDD;
+}
+@media screen and (max-width:1000px){
+    .divmain{
+        justify-content: center;
+    }
+    .imagemmain{
+        width: 100%;
+        height: 100%;
+    }
+    .weareconneqt{
+        display: none;
+        visibility: hidden;
+    }
+    .weareconneqthidden{
+        display: block;
+        visibility:initial;
+    }
+} 
