@@ -52,8 +52,9 @@
 }
 .getafreetrialcontainer h2{
     font-size: 3.5em;
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 5%;
+    background-color: red;
 }
 .getafreetrialcontainer p{
     font-size: 1.4em;
@@ -242,6 +243,8 @@
     }
     .getafreetrialcontainer p{
         font-size: 3em;
+        font-weight: 300;
+
     }
     .minitexthidden{
         display: block;
