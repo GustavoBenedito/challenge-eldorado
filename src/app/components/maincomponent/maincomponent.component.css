@@ -248,7 +248,7 @@
         margin-bottom: 80px;
     }
     .getafreetrialcontainer p{
-        font-size: 2.8em;
+        font-size: 3em;
         font-weight: 500;
     }
     .minitexthidden{
@@ -257,28 +257,32 @@
     .orpurchasealicensecontainerhidden{
         display: block;
         margin: 0 auto;
-        height: 800px;
+        height: 1100px;
         padding-top: 60px;
     }
     .orpurchasealicensecontainerhidden h2{
-        font-size: 3em;
+        font-size: 4em;
         font-weight: 500;
     }
     .globalresellerhidden{
         margin: 0 auto;
-        font-size: 2em;
+        font-size: 3em;
     }
     .resellercontainerhidden{
         display: flex;
         justify-content: space-between;
         font-size: 2em;
         font-weight: 500;
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
         color: #F84E3F;
     }
     .imgenviar{
-        width: 70px; 
+        width: 100px; 
         padding-top: 20px;
+    }
+    .titleresellerhidden{
+        text-align: left;
+        font-size: 1.5em;
     }
 } 

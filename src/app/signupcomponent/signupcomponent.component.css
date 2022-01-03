@@ -86,16 +86,16 @@ input[type=number] {
 
     }
     .inputsform input{
-        min-width:500px;
+        min-width:80%;
+        min-height: 100px;
         font-size: 2em;
         align-items: center;
         margin: 0 auto;
-        padding-left: 10px;
-        height: 60px;
-        border-radius: 2px;
+        padding-left: 15px;
+        border-radius: 5px;
         border: 2px solid rgb(180, 180, 180);
         background-color: transparent;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .inputsform p{
         width: 50%;
@@ -109,7 +109,7 @@ input[type=number] {
     }
     .inputsform button{
         margin-top: 50px;
-        min-width: 350px;
+        min-width: 400px;
         background-color: #F84E3F;
         color: #FFFF;
         border: none;
@@ -117,12 +117,9 @@ input[type=number] {
         border-radius: 5em;
         font-size: 2em;
         font-weight: 500;
+        margin-bottom: 50px;
     }
-    .inputsform button:hover{
-        cursor:pointer;
-        opacity: 0.8;
-        transition: 0.3s;
-    }
+
     input[type=number] {
         -moz-appearance:textfield;
     }

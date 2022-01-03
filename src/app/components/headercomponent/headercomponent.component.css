@@ -1,6 +1,5 @@
 
 .header{
-    
     width: 100%;
     min-height: 65px;
     display: flex;
@@ -46,7 +45,6 @@ nav{
     }
     nav a img{
         height: 180px;
-        width: 350px;
     }
     .buttons-login{
         display: none;

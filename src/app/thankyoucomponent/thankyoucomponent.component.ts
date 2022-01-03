@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ThankyoucomponentComponent implements OnInit {
 thankyou = 'Thank you for Signing Up!';
 getstarted = 'Get started and experience Conneqt today.';
-confirmationemail = 'A confiramtion email with your credentials was sent to your email addres.';
+confirmationemail = 'A confirmation email with your credentials was sent to your email addres.';
 button = 'Get Started With Conneqt';
   constructor() { }
 
