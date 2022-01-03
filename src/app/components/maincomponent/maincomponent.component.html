@@ -38,7 +38,9 @@
     </div>
     <div class="getafreetrialcontainer">
         <h2>{{getafreetrial}}</h2>
-        <p>{{seehowconneqt}}</p>
+        <p class="minitext">{{seehowconneqt}}</p>
+        <p class="minitexthidden" style="margin-top: 30px;">{{seehowhidden}}</p>
+        <p class="minitexthidden" style="margin-top: 30px; margin-bottom: 50px;">{{communicationneeds}}</p>
         <p style="margin-top: 5px; padding-bottom: 20px;">{{startatrialnow}}</p>
         <a [routerLink]="['/signup']">
             <app-buttonsignup></app-buttonsignup>
@@ -47,23 +49,23 @@
     </div>
     <div class="orpurchasealicensecontainer">
         <h2>{{orpurchasealicenca}}</h2>
-        <p>{{contactyourlocal}}</p>
-        <p style="margin-top: 40px;">{{globalreseller}}</p>
+        <p class="contactyourlocal">{{contactyourlocal}}</p>
+        <p class="globalreseller">{{globalreseller}}</p>
         <div class="resellercontainer">
             <div class="titlereseller">
-                <p>{{authorizedreseller}}</p>
+                <p>{{authorizedreseller}} </p>
             </div>
             <div class="companywebsitetef">
                 <div>
                     <p class="companywebsite">{{companywebsite}}</p><img style="width: 40px; position: relative; bottom: 2px;"src="../../assets/enviar.jpg" alt="">
                 </div>
-                <div>
+                <div> 
                     <img src="../../assets/telefone.jpg"style="width: 33px;" alt=""><p> {{tef}}</p>
                 </div>
             </div>
         </div>
 
-        <p style="margin-top: 40px; margin-bottom: 35px;">{{brazil}}</p>
+        <p class="brazil">{{brazil}}</p>
         <div class="resellercontainer" *ngFor="let reseller of brazilresellers">
             <div class="titlereseller">
                 <p>{{reseller}}</p>
@@ -78,7 +80,30 @@
             </div>
             
         </div>
+    </div>
+    <div class="orpurchasealicensecontainerhidden">
+        <h2>{{orpurchasealicenca}}</h2>
+        <p class="globalresellerhidden">{{globalreseller}}</p>
+        <div class="resellercontainerhidden">
+            <div class="titleresellerhidden">
+                <p>{{authorizedreseller}} </p>
+            </div>
+            <div class="companywebsitetefhidden">
+                <img class="imgenviar" src="../../assets/enviar.jpg" alt="">
+            </div>
+        </div>
 
+        <p class="globalresellerhidden">{{brazil}}</p>
+        <div class="resellercontainerhidden" *ngFor="let reseller of brazilresellers">
+            <div class="titlereseller">
+                <p>{{reseller}}</p>
+            </div>
+            <div class="companywebsitetefhidden">
+                <img class="imgenviar" src="../../assets/enviar.jpg" alt="">
+
+            </div>
+            
+        </div>
     </div>
 </main>
 

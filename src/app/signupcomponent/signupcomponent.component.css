@@ -6,11 +6,11 @@ main{
     min-height: 135vh;
     vertical-align: middle;
     padding-top: 5px;
+    padding-bottom: 10px;
 }
 main h2{
     font-size: 4em;
     font-weight: 100;
-    padding-top: 5%;
 }
 main h3{
     font-size: 2.4em;
@@ -56,12 +56,74 @@ main h3{
     opacity: 0.8;
     transition: 0.3s;
 }
-input.ng-invalid{
-    border-left:5px solid red;
+.text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-input.ng-valid{
-    border-left:5px solid red;
-}
+
 input[type=number] {
     -moz-appearance:textfield;
 }
+@media screen and (max-width:1000px){
+    main{
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        background-color: #F2F1EE;
+        min-height: 1100px;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .inputsform{
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 100%;
+
+    }
+    .inputsform input{
+        min-width:500px;
+        font-size: 2em;
+        align-items: center;
+        margin: 0 auto;
+        padding-left: 10px;
+        height: 60px;
+        border-radius: 2px;
+        border: 2px solid rgb(180, 180, 180);
+        background-color: transparent;
+        margin-top: 20px;
+    }
+    .inputsform p{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        font-size: 1.8em;
+        margin-bottom: 5px;
+        padding-left: 20px;
+    }
+    .inputsform button{
+        margin-top: 50px;
+        min-width: 350px;
+        background-color: #F84E3F;
+        color: #FFFF;
+        border: none;
+        min-height: 60px;
+        border-radius: 5em;
+        font-size: 2em;
+        font-weight: 500;
+    }
+    .inputsform button:hover{
+        cursor:pointer;
+        opacity: 0.8;
+        transition: 0.3s;
+    }
+    input[type=number] {
+        -moz-appearance:textfield;
+    }
+} 

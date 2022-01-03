@@ -19,6 +19,8 @@ yourteamarray = [
 ] ;
 getafreetrial = 'Get a free trial';
 seehowconneqt = 'See how Conneqt can solve your communication needs.';
+seehowhidden = 'See how Conneqt can solve your';
+communicationneeds = 'communication needs.';
 startatrialnow = 'Start a trial now';
 orpurchasealicenca = 'Or purchase a license';
 contactyourlocal = 'Contact your local reseller to request a license trial or purchase Conneqt';

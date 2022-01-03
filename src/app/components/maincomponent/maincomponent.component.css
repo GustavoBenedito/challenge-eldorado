@@ -6,13 +6,14 @@
     width: 100%;
 }
 .containersection{
+    padding-top: 10px;
     display: flex;
     justify-content: center;
 }
 .imgtv{
     width: 40%;
 }
-.maincontainer section{
+.containersection section{
     min-height: 70vh;
     width:100%;
     display: flex;
@@ -60,7 +61,8 @@
     line-height: -5;
 }
 .orpurchasealicensecontainer{
-    min-height: 110vh;
+    padding-top: 10px;
+    height: 130vh;
     background-color: #FFF;
     width:100%;
     display: flex;
@@ -115,6 +117,7 @@
     justify-content: space-around;
     background-color: #F2F1EE;
 }
+
 .weareconneqt{
     width: 40%;
     align-items: center;
@@ -126,7 +129,8 @@
     font-weight: 500;
 }
 .weareconneqt h1{
-    font-size: 5.2em;
+    font-size: 4.5em;
+    width: 120%;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -135,41 +139,13 @@
     color: #F84E3F;
 }
 .weareconneqthidden{
-    padding-top: 50px;
     display: none;
     visibility: hidden;
-    margin: 0 auto;
-    height: 20vh;
-    text-align: center;
-    align-items: center;
-    background-color: #F2F1EE;
-
-}
-.weareconneqthidden p{
-    font-size: 2em;
-    font-weight: 500;
-}
-.weareconneqthidden h1{
-    font-size: 5.2em;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.buttonsdivhidden{
-    margin: 0 auto;
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    line-height: 0;
-    height: 50%;
 }
 .buttonLogin{
-    font-size: 1.5em;
-    width: 125px;
-    min-height: 50px;
+    font-size: 2.2em;
+    width: 400px;
+    min-height: 60px;
     margin: 0 auto;
     border-radius: 5em;
     font-weight: 500;
@@ -177,6 +153,23 @@
     background-color: #FFFF;
     color: #F84E3F;
     border: 0.5px solid #DDDD;
+    margin-bottom: 20px;
+}
+.globalreseller{
+    margin-top: 40px;
+}
+.brazil{
+    margin-top: 40px; 
+    margin-bottom: 35px;
+}
+.minitexthidden{
+    display: none;
+}
+.imgenviarhidden{
+    display: none;
+}
+.orpurchasealicensecontainerhidden{
+    display: none;
 }
 @media screen and (max-width:1000px){
     .divmain{
@@ -193,5 +186,115 @@
     .weareconneqthidden{
         display: block;
         visibility:initial;
+        padding-top: 50px;
+        margin: 0 auto;
+        height: 500px;
+        text-align: center;
+        align-items: center;
+        background-color: #F2F1EE;
     }
+
+    .imgtv{
+        display: none;
+    }
+    .textconnected{
+        min-height: 45vh;
+        width: 100%;
+    }
+    .textconnected header h2{
+        font-size: 5em;
+        text-align: center;
+        align-items: center;
+    }
+    .textconnected main p{
+        font-size: 3em;
+        padding-left: 100px;
+        padding-bottom: 25px;
+    }
+    .textconnected main p img{
+        height: 60px;
+        width: 70px;
+        position: relative;
+        top: 5px;
+        right: 20px;
+    }
+    .containersection section{
+        min-height: 25vh;
+    }
+    .weareconneqthidden p{
+        font-size: 2.8em;
+        font-weight: 500;
+    }
+    .weareconneqthidden h1{
+        font-size: 6em;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .buttonsdivhidden{
+        margin: 0 auto;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 0;
+        height: 50%;
+    }
+    .getafreetrialcontainer{
+        min-height: 600px;
+    }
+    .getafreetrialcontainer h2{
+        font-size: 5em;
+        margin-bottom: 80px;
+    }
+    .getafreetrialcontainer p{
+        font-size: 2.8em;
+        font-weight: 500;
+    }
+    .minitext{
+        display: none;
+    }
+    .minitexthidden{
+        display: block;
+    }
+    .orpurchasealicensecontainer{
+        display: none;
+    }
+    .orpurchasealicensecontainerhidden{
+        display: block;
+        margin: 0 auto;
+        height: 800px;
+        padding-top: 60px;
+        text-align: center;
+        align-items: center;
+
+    }
+    .orpurchasealicensecontainerhidden h2{
+        font-size: 3em;
+        font-weight: 500;
+        text-align: center;
+        align-items: center;
+    }
+    .globalresellerhidden{
+        margin: 0 auto;
+        font-size: 2em;
+        text-align: center;
+        align-items: center;
+    }
+    .resellercontainerhidden{
+        display: flex;
+        justify-content: space-between;
+        font-size: 2em;
+        font-weight: 500;
+        width: 50%;
+        margin: 0 auto;
+        color: #F84E3F;
+    }
+    .imgenviar{
+        width: 70px; 
+        padding-top: 20px;
+    }
+
 } 
